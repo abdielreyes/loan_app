@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Sitio web
 
-Things you may want to cover:
+- autenticación
+- crud prestamos
+- barra de búsqueda de préstamos
+- búsqueda por fecha de creación
 
-* Ruby version
+### Modelos
 
-* System dependencies
+####usuario
+  nombre
+  username 
+  password
+  tiene préstamos
+  solo puede ver sus préstamos
 
-* Configuration
+####prestamos
+  prestenece a un usuario
+  tiene fecha de creación
+  body
+  tiene un id multicaracter único
+  puntaje crediticio
+  pretenece a un prestamista
 
-* Database creation
+####prestamista
+  tener nombre, apellido
+  numero de telefono
+  email
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
