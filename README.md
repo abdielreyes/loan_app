@@ -7,16 +7,16 @@
 - barra de búsqueda de préstamos
 - búsqueda por fecha de creación
 
-### Modelos
+## Modelos
 
-####usuario
+###usuario
   nombre
   username 
   password
   tiene préstamos
   solo puede ver sus préstamos
 
-####prestamos
+###prestamos
   prestenece a un usuario
   tiene fecha de creación
   body
@@ -24,7 +24,7 @@
   puntaje crediticio
   pretenece a un prestamista
 
-####prestamista
+###prestamista
   tener nombre, apellido
   numero de telefono
   email
