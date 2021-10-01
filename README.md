@@ -20,6 +20,7 @@
 - prestenece a un usuario
 - tiene fecha de creación
 - body
+- monto
 - tiene un id multicaracter único
 - puntaje crediticio
 - pretenece a un prestamista
